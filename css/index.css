@@ -1,0 +1,105 @@
+body {
+  max-width: 750px;
+  min-height: 320px;
+  width: 10rem;
+  margin: 0 auto;
+  background-color: #F2F2F2;
+  line-height: 1.5;
+  font-family: Arial,Helvetica;
+  height: 3000px;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 0.333333rem;
+}
+div {
+	box-sizing: border-box;
+}
+/* 当超过750px时候强制让html 的字体设置成75px */
+@media screen and (min-width:750px){
+	html {
+		font-size: 75px !important;
+	}
+}
+.top_search {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 750px;
+  min-width: 320px;
+  width: 100%;
+  height: 1.173333rem;
+  background-color: #FFC001;
+}
+.left_search {
+	width: 0.586666rem;
+	height: 0.933333rem;
+	margin: 0.186666rem 0.32rem 0 0.32rem;
+	background: url(../images/classify.png) no-repeat;
+	background-size: 0.586666rem 0.933333rem;
+}
+.right_search {
+	
+	width: 1rem;
+	height: 0.933333rem;
+	line-height: 1rem;
+	margin: 0.12rem;
+	text-align: center;
+}
+.search {
+	flex: 1;
+}
+.search input {
+	width: 100%;
+	height: 0.88rem;
+	font-size: 0.333333rem;
+	padding-left: 0.666666rem;
+	border-radius: 0.44rem;
+	outline: none;
+	border: 0;
+	margin-top: 0.146666rem;
+	background-color: #FFF2CC;
+}
+/* banner 部分 */
+.banner {
+	width: 10rem;
+	height: 4.906666rem;
+}
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+.advertising {
+	display: flex;
+}
+.advertising div {
+	flex: 1;
+	
+}
+.advertising div img {
+	width: 100%;
+}
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+nav a {
+	flex: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #333333;
+	font-size: 0.333333rem;
+	margin-top: 5px;
+}
+nav a span:nth-child(1) {
+	height: 1.093333rem;
+	width: 1.093333rem;
+	background: url(../upload/nav1.png) no-repeat;
+	background-size: 1.093333rem 1.093333rem;
+	
+}
